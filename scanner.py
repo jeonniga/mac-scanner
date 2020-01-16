@@ -160,8 +160,9 @@ def getnerateSQL(TABLE_NAME, jsondata):
         keylist += ")"
         valuelist += ",'"
         valuelist += cpuinfo.getCPUiD()
-        valuelist += "',UNIX_TIMESTAMP(NOW())"
-        valuelist += ")"
+        valuelist += "','"
+        valuelist += cpuinfo.getDateTimestr()
+        valuelist += "')"
 
         sql = "INSERT INTO " + TABLE_NAME + " " + keylist + " VALUES " + valuelist
 
