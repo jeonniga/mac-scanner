@@ -1,0 +1,20 @@
+{
+    "verbose":"True",
+    "nearby":"70",
+    "cellphone":"cellphone.json",
+    "capture_interval":"30",
+    "nic":"wlan1",
+    "duration":"50",
+    "dump_file":"mobile.pcap",
+    "fields":"fields",
+    "sa":"wlan.sa",
+    "bssid":"wlan.bssid",
+    "dbm":"radiotap.dbm_antsignal",
+    "dbhost":"localhost",
+    "dbport":"3306",
+    "dbuser":"root",
+    "dbpasswd":"chaos123",
+    "database":"phondb",
+    "tblname":"phonetbl",
+    "homedir":"/home/pi/scanner"
+}
